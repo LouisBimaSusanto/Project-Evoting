@@ -47,7 +47,7 @@ export default function VotePage() {
             const data = await res.json()
 
             if (data.hasVoted) {
-                router.push("/result")
+                router.push("/results")
             }
         }
 
